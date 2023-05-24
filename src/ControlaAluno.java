@@ -50,10 +50,7 @@ public class ControlaAluno {
 						existe = false;
 						
 					}
-				
-				
 			}
-			
 			if(existe) {
 				return aluno_buscado;
 			}else {
@@ -99,8 +96,6 @@ public class ControlaAluno {
 			
 			return false;
 		}
-			
-		
 		
 	}
 		

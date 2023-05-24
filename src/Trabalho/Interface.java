@@ -105,7 +105,7 @@ public class Interface {
 			return weight;
 			
 		}catch (InputMismatchException e) {//fiz esse tryCatch pq tava digitando com . e ele não aceitava
-			System.out.println("Era pra eu ser dobule, mas sou int!!");
+			System.out.println("caracter invalido!");
 			return 0.0;
 		}catch(NumberFormatException e) {
 			System.out.println("Numero invalido!");
